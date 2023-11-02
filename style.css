@@ -12,7 +12,19 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url('./back.jpg');
+    /* background-image: url('./back.jpg'); */ 
+    /* background: rgb(2, 0, 36); */
+    /* background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 30, 121, 1) 37%, rgba(249, 255, 0, 1) 100%); */
+
+    /* background-image: linear-gradient( 135deg, #FFCF71 10%, #2376DD 100%); */
+
+    /* background-image: linear-gradient(to top, #83d030 0%, rgb(22, 8, 103) 100%); */
+
+    /* background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); */
+
+    /* background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%); */
+
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,7 +203,7 @@ form button:active {
         width: 80%;
     }
 
-    .check{
+    .check {
         padding: 0 20px;
     }
 
@@ -203,13 +215,13 @@ form button:active {
         cursor: pointer;
     }
 
-    form{
+    form {
         display: flexbox;
         align-items: center;
         justify-content: center;
     }
-    
-    form button{
+
+    form button {
         margin: 10px 28px;
         height: 40px;
         width: 80%;
